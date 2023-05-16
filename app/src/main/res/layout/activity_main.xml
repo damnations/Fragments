@@ -9,13 +9,13 @@
 
 
     <FrameLayout
-        android:id="@+id/frameLayout1"
+        android:id="@+id/formFrameLayout"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"/>
 
     <FrameLayout
-        android:id="@+id/frameLayout2"
+        android:id="@+id/listFrameLayout"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1" />
