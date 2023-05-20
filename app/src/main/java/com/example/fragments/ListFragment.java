@@ -60,6 +60,7 @@ public class ListFragment extends Fragment {
         outState.putStringArrayList("peopleList", new ArrayList<>(peopleList));
     }
 
+    // Add a String Item entered in Form Fragment to List Fragment
     public void addItem(String item) {
         peopleList.add(item);
         adapter.notifyDataSetChanged();
